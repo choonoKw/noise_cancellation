@@ -7,7 +7,7 @@ The figure below shows Weiner noise cancellation using a secondary sensor to mea
 As an example, we assume the following:
 ![Equation](https://latex.codecogs.com/png.latex?v_1(n)=0.9v_1(n-1)+w(n)),
 ![Equation](https://latex.codecogs.com/png.latex?v_2(n)=-0.5v_2(n-1)+w(n)),
-![Equation](https://latex.codecogs.com/png.latex?d(n)=\sin(0.05\pi n)),
+![Equation](https://latex.codecogs.com/svg.image?&space;d(n)=\sin(0.05\pi&space;n)),
 where $w(n)$ is zero-mean, unit-variance white noise.
 The Wiener filter approximates $x(n)$ with input $v_2(n)$ in minimum mean square error (MMSE) sense. 
 

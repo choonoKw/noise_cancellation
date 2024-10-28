@@ -10,7 +10,7 @@ As an example, we assume the following:
 
 ![Equation](https://latex.codecogs.com/png.latex?v_2(n)=-0.5v_2(n-1)+w(n)),
 
-where $w(n)$ is zero-mean, unit-variance white noise. The signal from the signal source is given as ![Equation](https://latex.codecogs.com/svg.image?d(n)=\sin(0.05\pi&space;n)).
+where $w(n)$ is zero-mean, unit-variance white noise. The signal from the signal source is given as ![x](https://latex.codecogs.com/svg.image?d(n)=\sin(0.05\pi&space;n)).
 
 The Wiener filter approximates $x(n)$ with input $v_2(n)$ in minimum mean square error (MMSE) sense. 
 

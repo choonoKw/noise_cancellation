@@ -32,4 +32,10 @@ where $N$ is the data length. The correlation matrix $R_{v_2}$ can be expressed 
 
 The Wiener filter is $p$-tap FIR filter, where $p$ is the order of filter, whose function $h(n)$ should satisfies
 
-![Equation](https://latex.codecogs.com/svg.image?\begin{bmatrix}r_{v_2}(0)&r_{v_2}(1)&\cdots&r_{v_2}(p-2)&r_{v_2}(p-1)\\r_{v_2}(1)&r_{v_2}(0)&&&r_{v_2}(p-2)\\\vdots&&\ddots&&\vdots\\r_{v_2}(p-2)&&&r_{v_2}(0)&r_{v_2}(1)\\r_{v_2}(p-1)&r_{v_2}(p-2)&\cdots&r_{v_2}(1)&r_{v_2}(0)\end{bmatrix}\begin{bmatrix}h(0)\\h(1)\\\vdots\\h(p-2)\\h(p-1)\end{bmatrix}=\begin{bmatrix}r_{xv_2}(0)\\r_{xv_2}(1)\\\vdots\\r_{xv_2}(p-2)\\r_{xv_2}(p-1)\end{bmatrix})
+
+![Equation](https://latex.codecogs.com/svg.image?\begin{bmatrix}r_{v_2}(0)&r_{v_2}(1)&\cdots&r_{v_2}(p-2)&r_{v_2}(p-1)\\\r_{v_2}(1)&r_{v_2}(0)&&&r_{v_2}(p-2)\\\\\vdots&&\ddots&&\vdots\\\r_{v_2}(p-2)&&&r_{v_2}(0)&r_{v_2}(1)\\\r_{v_2}(p-1)&r_{v_2}(p-2)&\cdots&r_{v_2}(1)&r_{v_2}(0)\end{bmatrix})
+
+
+$$\begin{bmatrix}r_{v_2}(0)&r_{v_2}(1)&\cdots&r_{v_2}(p-2)&r_{v_2}(p-1)\\\ r_{v_2}(1)&r_{v_2}(0)&&&r_{v_2}(p-2)\\\ \vdots && \ddots&& \vdots \\\ r_{v_2}(p-2)&&&r_{v_2}(0)&r_{v_2}(1)\\\ r_{v_2}(p-1)&r_{v_2}(p-2)&\cdots&r_{v_2}(1)&r_{v_2}(0)\end{bmatrix}$$
+
+
